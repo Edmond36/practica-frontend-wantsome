@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <form>
+            <label for="nume">Nume:*</label>
+            <input name="nume" type="text" placeholder="Nume familie" required>
+            <br>
+            <label for="prenume">Prenume:*</label>
+            <input name="prenume" type="text" placeholder="Prenume" required>
+            <br>
+            <label for="varsta">Varsta:</label>
+            <input name="varsta" type="number" min="18" max="100" placeholder="Varsta">
+            <br>
+            <label for="experienta-minima">Experienta-minima:</label>
+            <input name="experienta-minima" type="range">
+            <br>
+            <label for="data nasterii">data nasterii</label>
+            <input name="data nasterii" type="date" value="2017-07-02">
+            <br>
+            <label for="month">Luna</label>
+            <input name="month" type="month">
+            <br>
+            <label for="week">Saptamana</label>
+            <input name="week" type="week">
+            <br>
+            <label for="time">Time</label>
+            <input name="time" type="time">
+            <p>Ce limbaj de programare preferi?
+                <label for="chck">Apasa</label>
+                <input type="checkbox" name="chck" id="chck">java
+                <input type="checkbox" name="chck">.net
+                <input type="checkbox" name="chck">javascript
+            </p>
+            <input type="radio" name="tech">java
+            <input type="radio" name="tech">.net
+            <input type="radio" name="tech">javascript
+            <br>
+            <input type="submit" value="Trimite">
+        </form>
+    </body>
+</html>
