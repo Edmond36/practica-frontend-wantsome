@@ -1,0 +1,11 @@
+<div class="Header"></div>
+<div class="nav"></div>
+<div class="article"></div>
+<div class="footer"></div>
+
+
+<head></head>
+<nav></nav>
+<body></body>
+<article></article>
+<footer></footer>
