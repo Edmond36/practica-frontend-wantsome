@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(163, 224, 206)
+}
+h2{
+    color: blue; text-align: center;
+}
+h3{
+    color: rgb(0, 255, 34); text-align: center;
+}
+form{
+    color: red; text-align: right;
+}
+input[type=text]{
+    color: hotpink; text-decoration-line: line-through;
+}
+input[placeholder="FirstName LastName"]{
+    background-color: yellow;
+}
+input[placeholder="EMAIL_ADRESS"]{
+    background-color: yellow;
+}
+input[placeholder="m/d/y"]{
+    background-color: yellow;
+}
+input[placeholder="UNKNOWN_TYPE"]{
+    background-color: yellow;
+}
+input[type=submit]{
+    border: solid yellow;
+}
