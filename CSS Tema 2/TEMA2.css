@@ -1,0 +1,18 @@
+nav {
+    border: solid pink 3px;
+    float: left;
+    width: 100px;
+}
+
+section {
+    border: solid yellow 3px;
+    position: relative;
+    left: 106px;
+    padding: 10px;
+    width: 1224px;
+}
+
+footer {
+    border: solid green 3px;
+    width: 1351px;
+}
