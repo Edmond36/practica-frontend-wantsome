@@ -1,0 +1,49 @@
+.grid{
+    display: grid;
+    background-color: white;
+    width: 600px;
+    height: 600px;
+    grid-gap: 5px;
+    grid-template-rows: 10;
+    grid-template-columns: 10;
+}
+
+#vertical{
+    background-color: rgb(15, 201, 201);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#tiles{
+    background-color: rgb(211, 173, 5);
+    grid-row-start: 3;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#wide-tile{
+    background-color: rgb(214, 12, 73);
+    grid-row-start: 5;
+    grid-row-end: 10;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+#middle-tile{
+    background-color: rgb(51, 71, 245);
+    grid-row-start: 1;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 7;
+}
+
+#tall-tile{
+    background-color: rgb(11, 167, 37);
+    grid-row-start: 1;
+    grid-row-end: 10;
+    grid-column-start: 7;
+    grid-column-end: 10;
+}
