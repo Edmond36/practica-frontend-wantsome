@@ -1,0 +1,228 @@
+body {
+    font-family: 'Comfortaa', cursive;
+}
+
+
+/* Navbar Styling */
+header { 
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    color: white;
+}
+
+.logo {
+    float: left;
+    margin-left: 110px;
+    margin-top: 25px;
+}
+
+ul {
+    float: right;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 250px;
+    padding-top: 13px;
+    padding-right: 100px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+.title {
+    text-align: center;
+    padding-top: 65px;
+}
+h1 {
+    font-weight: lighter;
+}
+
+
+
+/* Main Styling */
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#section1 {
+    color:#5385C0;
+    height: 270px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#section1 div {
+    padding: 0px 40px;
+    width: 300px;
+    height: 160px;
+    margin-top: 55px;
+}
+
+#section1 div:nth-child(2) {
+    border-left:solid grey 2px;
+    border-right:solid grey 2px;
+}
+#section1 h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+button {
+    color:white ;
+    height: 35px;
+    width: 50px;
+    border: 0px;
+    background-color: #5385C0;
+}
+
+#section2{
+    height: 540px;
+    background-color: #5385C0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: white;
+}
+
+.section2Images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#section2 h2 {
+    text-align: center;
+}
+
+#section2 p {
+    text-align: center;
+    margin-top: -60px;
+}
+
+#section2 span {
+    display: block;
+}
+
+.section2Images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section2Images div {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 234px;
+    height: 270px;
+    margin: 20px;
+    /* padding: 10px ; */
+    border: white 1px solid;
+}
+
+.section2Images img {
+    margin: 15px auto;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+#section3{
+    color:#5385C0;
+    background-color: white;
+    height: 400px;
+}
+
+#section3 h2 {
+    text-align: center;
+}
+
+#section3 span {
+    text-align: center;
+    display: block;
+    margin-top: -10px;
+}
+
+.section3Images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section3Images div {
+    width: 500px;
+    margin: 40px 20px 20px 20px;
+
+}
+
+.section3Images img {
+    width: 515px;
+    height: 140px;
+}
+
+hr {
+    width: 1060px;
+    margin-top: 70px;
+    margin-left: 145px;
+    margin-bottom: 40px;
+}
+
+footer {
+    width: 1060px;
+    margin-left: 145px;
+}
+
+footer ul {
+    margin-top: -20px;
+}
+
+.fbFooterLogo {
+    width: 20px;
+    height: 20px;
+    background-image: url(fbLogo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.twFooterLogo {
+    width: 20px;
+    height: 20px;
+    background-image: url(tw.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.igFooterLogo {
+    width: 20px;
+    height: 20px;
+    background-image: url(in.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.piFooterLogo {
+    width: 20px;
+    height: 20px;
+    background-image: url(pi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dbFooterLogo {
+    width: 20px;
+    height: 20px;
+    background-image: url(db.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
