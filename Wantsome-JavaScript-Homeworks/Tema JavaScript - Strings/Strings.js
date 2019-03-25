@@ -3,7 +3,6 @@
 function is_string(string) {
     return typeof(string) === 'string';
 } 
-console.log(is_string('w3resource'));
 
 
 // 2. Scrieti o functie care verifica daca un string este gol sau nu.
@@ -30,6 +29,20 @@ function abbrev_name(string) {
 function capitalize(string) {
     return string.split(' ')[0].charAt(0).toUpperCase() + string.slice(1);
 }
+
+// 6. Scrieti o functie care elimina un numar specificat de caractere pornind de la inceputul string-ului:
+
+function truncate_string(string, position) {
+    return string.slice(0,position);
+}
+
+
+// 7. Scrieti o functie care specifica daca o caracterul de la o anumita pozitie specificata dintr-un string este litera mare sau nu:
+
+function isUpperCaseAt(string, position) {
+    return string.charAt(position) === string.charAt(position).toUpperCase();
+}
+
 
 // 8. Scrieti o functie care insereaza un string la o anumita pozitie intr-un alt string:
 
