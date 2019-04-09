@@ -11,10 +11,9 @@ console.log(sexMF(CNP));
 // 2. Scrieti o functie de tip function expression care accepta ca argument o valoare numerica cuprinsa intre 1 si 10 si decide calificativul punctajului. 
 
 var calificativDinNota = function (nota) {
-    if(nota!=0  && nota>=1 && nota<3){
+    if(nota!=0  && nota>=1 && nota<3) {
         return 'Calificatul corespunzator punctajului ' + [nota] + ' este E'
-    }
-    else if(nota!=0  && nota>=3 && nota<=6) {
+    } else if(nota!=0  && nota>=3 && nota<=6) {
         return 'Calificatul corespunzator punctajului ' + [nota] + ' este D';
     }
     else if(nota!=0  && nota>=7 && nota<=8) {
